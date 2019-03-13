@@ -21,6 +21,12 @@ import ${modelPackageName}.${pageName}Model;
 @Module
 public abstract class ${pageName}Module {
 
+    @ActivityScope
+    @Provides
+    static Context provideContext(${pageName}Contract.View view) {
+        return view.getActivity();
+    }
+    
     @Binds
     abstract ${pageName}Contract.Model bind${pageName}Model(${pageName}Model model);
 }
