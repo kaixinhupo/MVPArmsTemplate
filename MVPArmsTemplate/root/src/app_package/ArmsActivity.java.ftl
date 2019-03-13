@@ -69,4 +69,9 @@ public class ${pageName}Activity extends BaseActivity<${pageName}Presenter> impl
     public void killMyself() {
         finish();
     }
+    
+    @Override
+    public Activity getActivity() {
+        return this;
+    }
 }
