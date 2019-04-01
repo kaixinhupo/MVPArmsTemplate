@@ -8,6 +8,7 @@ import com.jess.arms.di.scope.ActivityScope;
 import com.jess.arms.di.scope.FragmentScope;
 </#if>
 
+import android.content.Context;
 import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
