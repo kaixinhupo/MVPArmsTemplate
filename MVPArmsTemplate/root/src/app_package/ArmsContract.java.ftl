@@ -1,5 +1,6 @@
 package ${contractPackageName};
 
+import android.app.Activity;
 import com.jess.arms.mvp.IView;
 import com.jess.arms.mvp.IModel;
 
